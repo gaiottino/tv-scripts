@@ -1,0 +1,6 @@
+SCRIPTS_DIR=~/bin/tv-scripts
+SHOWS_DIR=~/Movies/TV_Shows
+
+ruby $SCRIPTS_DIR/tvmover.rb $SHOWS_DIR ~/Downloads/Newsleecher
+
+cd $SHOWS_DIR && ruby $SCRIPTS_DIR/tvrenamer.rb -f '%S s%se%e1'
